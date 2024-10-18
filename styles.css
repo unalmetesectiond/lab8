@@ -1,0 +1,56 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #ffe6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.Box {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffccf2;
+  border: 3px solid #ff99cc;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ff66b2;
+}
+
+button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff99cc;
+}
+
+#WaifuBox {
+  margin-top: 20px;
+}
+
+.waifu img {
+  width: 180px; 
+  height: 250px;
+  object-fit: cover; 
+  border: 2px solid #ff66b2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff99cc;
+}
+
+@media only screen and (max-width: 600px) {
+  .Box {
+    width: 90%;
+  }
+
+  .waifu img {
+    width: 150px; 
+    height: 200px;
+  }
+}
